@@ -7,7 +7,29 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
+    <main>
     <h1>Group generator</h1>
+    <div class="container"></div>
+        <h1>Random Group Generator</h1>
+
+        <div id="result"></div>
+
+        <form id="groupForm">
+            <label for="names">Enter names (comma separated):</label><br>
+            <textarea id="names" class="user-interface-box enter-names-area" rows="10" cols="20" placeholder="
+John
+Jane
+Alice
+Bob..."></textarea><br><br>
+
+            <label for="groupSize">Number of persons per group:</label><br>
+            <input type="number" id="groupSize" placeholder="Enter group size" class="user-interface-box"><br><br>
+
+            <button type="submit" class="submit-btn">Generate Groups</button>
+        </form>
+
+    </div>
+</main>
     <script src="script.js"></script>
   </body>
 </html>

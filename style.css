@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.user-interface-box {
+  border-radius: 2em;
+  padding: 5%;
+}
+
+.submit-btn {
+  border-radius: 2em;
+  padding: 5%;
+}
