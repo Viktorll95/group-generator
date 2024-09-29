@@ -24,8 +24,13 @@ form.addEventListener("submit", function (e) {
   const groupSize = parseInt(groupSizeInput.value);
 
   // Check for valid input
-  if (names.length === 0 || isNaN(groupSize) || groupSize <= 0) {
-    resultDiv.innerHTML = "<p>Please enter valid names and group size.</p>";
+  if (names.length === 0) {
+    resultDiv.innerHTML = "<p>Please enter valid names.</p>";
+    return;
+  }
+
+  if (isNaN(groupSize) || groupSize <= 0) {
+    resultDiv.innerHTML = "<p>Please enter group size.</p>";
     return;
   }
 
