@@ -19,12 +19,14 @@ body {
 }
 
 #group-form {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .user-interface-box {
+  border: none;
   border-radius: 2em;
   padding: 5%;
 }
@@ -32,8 +34,13 @@ body {
 .submit-btn {
   border-radius: 2em;
   padding: 5%;
+  margin-bottom: 10vh;
 }
 
 .group-text {
-  border: black solid;
+  background-color: white;
+  border: none;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin: 0.25em;
 }
