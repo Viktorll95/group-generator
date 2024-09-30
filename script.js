@@ -1,5 +1,5 @@
 // Get references to form elements
-const form = document.getElementById("groupForm");
+const form = document.getElementById("group-form");
 const namesInput = document.getElementById("names");
 const groupSizeInput = document.getElementById("groupSize");
 const resultDiv = document.getElementById("result");

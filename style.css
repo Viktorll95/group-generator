@@ -10,8 +10,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #b6b6b6;
+}
+
+.heading {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+}
+
+#group-form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .user-interface-box {
