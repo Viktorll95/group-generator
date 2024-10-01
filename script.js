@@ -46,8 +46,11 @@ form.addEventListener("submit", function (e) {
   // Display results
   resultDiv.innerHTML = "";
   groups.forEach((group, index) => {
-    resultDiv.innerHTML += `<p class="group-text"><strong>Group ${
-      index + 1
-    }:</strong> ${group.join(", ")}</p>`;
+    resultDiv.innerHTML += `
+      <div class="group-text">
+        <label><strong>Group ${index + 1}:</strong></label>
+        <input type="text" value="${group.join(", ")}" class="group-text" />
+      </div>
+    `;
   });
 });

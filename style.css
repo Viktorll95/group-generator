@@ -37,10 +37,22 @@ body {
   margin-bottom: 10vh;
 }
 
+.group-container {
+  margin: 0.5em 0;
+}
+
 .group-text {
   background-color: white;
-  border: none;
+  border: 1px solid #ccc;
   border-radius: 1em;
   padding: 0.5em;
-  margin: 0.25em;
+  margin: 0.25em 0;
+  width: 100%;
+  box-sizing: border-box; /* Include padding and border in element's total width */
+  appearance: none; /* Remove default input styling for better cross-browser consistency */
+}
+
+label {
+  margin-right: 0.5em;
+  display: inline-block;
 }
